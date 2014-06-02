@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Movie finder</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <link rel="stylesheet" href="dist/css/ratchet.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <script src="dist/js/ratchet.min.js"></script>
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/app.js"></script>
+
+  </head>
+  <body>
+    <div class="content">
+      <div class="content-padded">
+      <center>
+      <p>&nbsp;</p>
+
+      <h1>WHAAM</h1>
+
+      <p>&nbsp;</p>
+      <p>A mobile application for observation, monitor behaviors, and access the ADHD supporting network.</p>
+
+      <a class="btn btn-block btn-outlined btn-primary" href="#settingsModal">Login</a>
+      or 
+      <a class="btn btn-block btn-outlined btn-positive" href="#signupModal">Register</a>
+
+    </center>
+    </div><!-- /.content-padded -->
+
+    </div><!-- /.content -->
+
+    <!-- Settings modal -->
+    <div id="settingsModal" class="modal">
+      <header class="bar bar-nav">
+        <a class="icon icon-close pull-right" href="#settingsModal"></a>
+        <h1 class="title">Login</h1>
+      </header>
+
+      <div class="content">
+        <form class="input-group">
+          <input type="text" placeholder="Email">
+          <input type="password" placeholder="Password">
+        </form>
+
+        <div class="content-padded">
+          <a class="btn btn-block btn-outlined btn-primary" href="main.html">Login</a>
+          <a class="btn btn-block btn-outlined btn-negative" href="#settingsModal">Cancel</a>
+        </div>
+
+      </div>
+    </div><!-- /.modal -->
+
+
+
+    <!-- Register modal -->
+    <div id="signupModal" class="modal">
+      <header class="bar bar-nav">
+        <a class="icon icon-close pull-right" href="#signupModal"></a>
+        <h1 class="title">Register</h1>
+      </header>
+
+      <div class="content">
+        <form class="input-group">
+          <input type="text" placeholder="Email">
+          <input type="text" placeholder="Confirm email">
+          <input type="password" placeholder="Password">
+        </form>
+
+        <div class="content-padded">
+          <a class="btn btn-block btn-outlined btn-primary" href="main.html">Register</a>
+          <a class="btn btn-block btn-outlined btn-negative" href="#signupModal">Cancel</a>
+        </div>
+
+      </div>
+    </div><!-- /.modal -->
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
