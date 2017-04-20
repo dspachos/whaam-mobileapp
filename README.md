@@ -1,4 +1,4 @@
-WHAAM Mobile Application
+WHAAM Mobile Application (Prototype only) (DEPRECATED)
 =======
 
 Project web site http://www.whaamproject.eu
